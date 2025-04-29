@@ -1,0 +1,33 @@
+/* Base Styles */
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.pokemon-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+
+}
+
+.type-fire { background-color: #fd7d24; }
+.type-water { background-color: #4592c4; }
+
+/* Add other type colors */
+
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
